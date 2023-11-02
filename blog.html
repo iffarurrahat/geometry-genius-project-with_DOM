@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>geometry-genius-blog</title>
+    <!-- Tialwind CDN Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+     <!-- custom color -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                blue:'#1090D8',
+                skyBlue:'#E7F4FB',
+              },
+              fontFamily: {
+                inter: ['Inter', 'sans-serif'],
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <section class="w-full max-w-7xl mx-auto px-5 mt-10">
+        <button id="home-btn" class="bg-blue text-white text-xl font-bold py-2 px-9 rounded-lg">
+            <a href="index.html">Home Page</a>
+        </button>
+    </section>
+    <section class="w-full max-w-7xl mx-auto px-5 my-16">
+        <div class="mb-5 bg-skyBlue p-10 rounded-md">
+            <h1 class="text-3xl mb-2">1. What is DOM and what is the purpose of DOM?</h1>
+            <p class="ml-5">DOM is the document object module. HTML makes it work in a tree structure range.Through it we can perform almost any kind of work like publishing, processing and many more.</p>
+        </div>
+        <div class="mb-5 bg-skyBlue p-10 rounded-md">
+            <h1 class="text-3xl mb-2">2. How will you select HTML elements using DOM? Name the DOM methods.</h1>
+            <p class="ml-5"><strong>i.getElementsByTagName()</strong></p>
+            <p class="ml-5 mb-2">By using it I can do any kind of editing on any specific <strong>tag</strong> name very easily</p>
+            <p class="ml-5"><strong>ii.getElementsByClassName()</strong></p>
+            <p class="ml-5 mb-2">By using this I can do any kind of editing on any specific <strong>class</strong> name very easily</p>
+            <p class="ml-5"><strong>iii.getElementById()</strong></p>
+            <p class="ml-5 mb-2">Hello Hello specifically if we want to get a specific item of the website then we will use <strong>id</strong> (this will directly give an element in the HTML Collection</p>
+            <p class="ml-5"><strong>iv.querySelector()</strong></p>
+            <p class="ml-5 mb-2">querySelector works much like id in that we can work by assuming a specific <strong>class or id</strong></p>
+            <p class="ml-5"><strong>iv.querySelectorAll()</strong></p>
+            <p class="ml-5">If I want to get some elements in a container then I can use <strong>querySelectorAll</strong> , this will catch specific elements in a container.</p>
+        </div>
+        <div class="mb-5 bg-skyBlue p-10 rounded-md">
+            <h1 class="text-3xl mb-2">3. What is event bubble?</h1>
+            <p class="ml-5">An event bubble is a document that will grab a specific element and continue to move toward its parent until it is no longer working.</p>
+        </div>
+        <div class="bg-skyBlue p-10 rounded-md">
+            <h1 class="text-3xl mb-2">4. What is a callback function and why will you use it?</h1>
+            <p class="ml-5"> After writing a function, if the argument of that function is used inside another function, then it is called call back function. <br> By using the key function, we can organize the codes very nicely and do not have to repeat the codes again and again</p>
+        </div>
+    </section>
+
+
+<script src="js/blog.js"></script>
+</body>
+</html>
